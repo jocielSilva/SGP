@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>SGPC - Página de Login</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="Stylesheet" />
+	</head>
+	
+	<body>
+	
+	<img src="img/CastLogo.png" />
+	
+	<form wicket:id="formulario">
+	
+	   <fieldset>
+	   
+	       <legend>Autenticação</legend>
+	       
+	       <label for="login">Login: </label>
+	       <input id="login" type="text" maxlength="20" wicket:id="login" />
+	       <label for="senha">Senha: </label>
+           <input id="senha" type="password" maxlength="20" wicket:id="senha"/>
+           <br />
+           <input type="submit" value="Entrar" wicket:id="entrar" />
+           <input type="reset" value="Limpar" />
+	   
+	   </fieldset>
+
+    <div wicket:id="feedback"></div>
+
+	</form>
+		
+		
+		
+	</body>
+</html>

@@ -1,0 +1,11 @@
+* { margin:0; padding:0;  }
+body { background:#ddd;  }
+img { margin-left:42%; margin-top:13%; margin-bottom:3%;   }
+form fieldset { padding:10px; width:20%; margin-left:40%; font-size:15px; font-family: 'trebuchet ms';}
+form fieldset label { display:block; }
+form fieldset input,label { font-size:17px; padding:3px; font-family: 'trebuchet ms'; margin:5px 5px 5px 5px; } { }
+form fieldset input[type=text],input[type=password] { width:180px; font-size:14px;  }
+form fieldset input[type=submit],input[type=reset] { background:#FFF; color:#000; cursor:pointer; font-size:12px;}
+form fieldset input[type=submit]:hover,input[type=reset]:hover { color:#FFF; background:#00F;  }
+form fieldset legend  { margin-left:30%;  }
+#feedback { margin-left:40%; margin-top:1%; color:red; }
